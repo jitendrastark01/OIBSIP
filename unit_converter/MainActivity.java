@@ -48,6 +48,6 @@ public class MainActivity extends AppCompatActivity {
                 if (to.equals("Grams")) return input * 1000;
                 break;
         }
-        return input; // Default case (no conversion)
+        return input; 
     }
 }
